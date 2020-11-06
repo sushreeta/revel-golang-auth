@@ -1,0 +1,7 @@
+INFO  2020/11/06 14:46:39    app server-engine.go:213: Request Stats                           ip=127.0.0.1 method=GET action=App.Index namespace=App\\ section=requestlog  path=/ start=2020/11/06 14:46:39 status=200 duration_seconds=0.0185562 
+INFO  2020/11/06 14:46:46    app server-engine.go:213: Request Stats                           ip=127.0.0.1 path=/register method=GET duration_seconds=0.0004085 section=requestlog   start=2020/11/06 14:46:46 status=404
+INFO  2020/11/06 17:06:18    app server-engine.go:213: Request Stats                             ip=127.0.0.1 path=/user status=404 section=requestlog method=GET start=2020/11/06 17:06:18 duration_seconds=0.0181655
+INFO  2020/11/06 17:06:23    app server-engine.go:213: Request Stats                            ip=127.0.0.1 path=/users start=2020/11/06 17:06:23 status=404 duration_seconds=0.0001414  method=GET section=requestlog
+INFO  2020/11/06 17:16:35    app server-engine.go:213: Request Stats                           section=requestlog ip=127.0.0.1 path=/ start=2020/11/06 17:16:35 duration_seconds=0.0006542 status=200   method=GET action=App.Index namespace=App\\
+INFO  2020/11/06 17:16:40    app server-engine.go:213: Request Stats                           ip=127.0.0.1 method=GET  status=404 duration_seconds=0.0001790 section=requestlog  path=/user start=2020/11/06 17:16:40
+INFO  2020/11/06 17:16:41    app server-engine.go:213: Request Stats                           section=requestlog  ip=127.0.0.1 path=/users method=GET start=2020/11/06 17:16:41 status=404 duration_seconds=0.0002327 

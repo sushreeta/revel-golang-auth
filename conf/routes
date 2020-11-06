@@ -24,3 +24,12 @@ GET     /public/*filepath                       Static.Serve("public")
 # For rapid development uncomment the following to add new controller.action endpoints
 # without having to add them to the routes table.
 # *       /:controller/:action                    :controller.:action
+# User-defined routes
+POST /register UserController.Register
+POST /login UserController.Login
+PUT /logout/:id UserController.Logout
+
+GET /users UserController.ListAllUsers
+GET /users/:id UserController.Show
+PUT /user/ UserController.Update
+DELETE /users/:id UserController.Delete
