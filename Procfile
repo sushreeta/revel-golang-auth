@@ -1,1 +1,1 @@
-web: todoApp
+web: revel-golang-todo

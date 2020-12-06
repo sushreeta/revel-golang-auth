@@ -3,8 +3,8 @@ package controllers
 import (
 	"errors"
 	"fmt"
+	"revel-golang-todo/app/models"
 	"time"
-	"todoApp/app/models"
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/revel/revel"
