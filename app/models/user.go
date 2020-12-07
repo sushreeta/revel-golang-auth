@@ -1,8 +1,9 @@
 package models
 
 import (
-	"revel-golang-todo/app/models/mongodb"
 	"time"
+
+	"github.com/sushreeta/revel-golang-todo/app/models/mongodb"
 
 	"gopkg.in/mgo.v2/bson"
 )

@@ -1,4 +1,4 @@
-module todoApp
+module revel-golang-todo
 
 go 1.15
 

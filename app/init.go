@@ -2,7 +2,8 @@ package app
 
 import (
 	"log"
-	"revel-golang-todo/app/models/mongodb"
+
+	"github.com/sushreeta/revel-golang-todo/app/models/mongodb"
 
 	"github.com/revel/config"
 	"github.com/revel/revel"

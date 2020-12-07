@@ -3,7 +3,8 @@ package controllers
 import (
 	// "encoding/json"
 	"errors"
-	"revel-golang-todo/app/models"
+
+	"github.com/sushreeta/revel-golang-todo/app/models"
 
 	"github.com/revel/revel"
 	"golang.org/x/crypto/bcrypt"
